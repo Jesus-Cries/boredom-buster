@@ -1,5 +1,5 @@
 {
-    "name": "portfolio-frontend",
+    "name": "boredom-buster",
     "version": "1.0.0",
     "private": true,
     "scripts": {
@@ -18,11 +18,9 @@
         "@typescript-eslint/eslint-plugin": "^5.27.0",
         "@typescript-eslint/parser": "^5.27.0",
         "autoprefixer": "^10.4.13",
-        "daisyui": "^4.11.1",
         "eslint": "^8.16.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-svelte3": "^4.0.0",
-        "lottie-web": "^5.9.6",
         "postcss": "^8.4.18",
         "prettier": "^3.0.2",
         "prettier-plugin-svelte": "^3.0.3",
@@ -40,11 +38,6 @@
     "dependencies": {
         "i18next": "^23.4.1",
         "i18next-browser-languagedetector": "^7.1.0",
-        "lottie-colorify": "^0.8.0",
-        "lucide-svelte": "^0.266.0",
-        "svelte-i18next": "^2.0.0",
-        "svelte-inview": "^3.0.1",
-        "svelte-material-icons": "^3.0.5",
-        "theme-change": "^2.5.0"
+        "svelte-i18next": "^2.0.0"
     }
 }
