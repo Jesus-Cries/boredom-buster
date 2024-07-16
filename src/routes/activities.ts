@@ -1,6 +1,6 @@
 import type { ActivityProps } from "$lib/interfaces"
 
-/** A list of my current skills */
+/** A list of potential activites */
 export const activites: ActivityProps[] = [
     // 5 Minutes
     { duration: "5", key: "brawling" },
