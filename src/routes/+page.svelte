@@ -72,23 +72,21 @@
             show = true
         }}
     >
-        {#if show}
-            <div
-                class="dots align-center flex h-screen w-screen flex-col items-center justify-center gap-14"
-            >
-                <p class="fixed top-14 text-4xl font-black tracking-wider">Activities</p>
+        <div
+            class="dots align-center flex h-screen w-screen flex-col items-center justify-center gap-14"
+        >
+            <p class="fixed top-14 text-4xl font-black tracking-wider">Activities</p>
 
-                {#if currentActivityIndex === -1}
-                    <p class="animate-pulse text-3xl font-bold">
-                        {$i18n.t("tapToStart")}
-                    </p>
-                {:else}
-                    <Time duration={randomizedActivites[currentActivityIndex].duration} />
+            {#if currentActivityIndex === -1}
+                <p class="animate-pulse text-3xl font-bold">
+                    {$i18n.t("tapToStart")}
+                </p>
+            {:else if show}
+                <Time duration={randomizedActivites[currentActivityIndex].duration} />
 
-                    <Activity i18nKey={randomizedActivites[currentActivityIndex].key} />
-                {/if}
-            </div>
-        {/if}
+                <Activity i18nKey={randomizedActivites[currentActivityIndex].key} />
+            {/if}
+        </div>
     </button>
 {/if}
 
