@@ -1,9 +1,8 @@
 # Boredom Buster
 
-This is a quick side project that I created to find some inspiration when bored.
+Finding something fun to do can be challenging. This is where the Boredom Buster comes in.
 
-It randomly chooses a fun activity and a fitting duration for you get up and have some fun.
-
+Just hit the button, and it'll randomly suggest an exciting activity and the perfect amount of time to get up and enjoy yourself.
 
 # Installation
 
